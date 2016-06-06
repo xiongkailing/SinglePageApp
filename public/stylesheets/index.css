@@ -1,0 +1,4 @@
+html,body{margin:0; padding:0;width:100%;min-height: 100%;height: 100%;}
+.pagewarp{width:100%;height:100%;text-align: center;}
+.pagewarp.green-c{background: #00ff99;}
+.pagewarp.red-c{background: #ff9900;}

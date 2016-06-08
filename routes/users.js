@@ -19,6 +19,8 @@ router.get('/profile',function(req,res,next){
 			res.send("mysql database connected!");
 			client.end();
 			console.log('mysql connected closed!');
+		}else{
+			res.send('mysql databse connect failed');
 		}
 	});
 	//res.send("this is user's profile page");
